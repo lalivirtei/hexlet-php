@@ -1,0 +1,15 @@
+{
+    "name": "dan/hexlet-php",
+    "autoload": {
+        "psr-4": {
+            "Dan\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Denis Karakchiev",
+            "email": "lalivirtei@gmail.com"
+        }
+    ],
+    "require": {}
+}
