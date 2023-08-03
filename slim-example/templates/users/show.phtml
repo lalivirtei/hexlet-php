@@ -1,0 +1,14 @@
+<h1>Hello, <?= $id ?></h1>
+
+
+<table>
+    <?php foreach ($users as $user): ?>
+    <tr>
+        <td><?= htmlspecialchars($id) ?></td>
+        <td>
+            <a href="/users/<?= htmlspecialchars($id) ?>"><?= htmlspecialchars($user['firstName']) ?></a>
+        </td>
+    </tr>
+
+    <?php endforeach; ?>
+</table>
