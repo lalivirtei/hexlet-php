@@ -1,7 +1,15 @@
 <?php
 
-// Печатает год в STDOUT
-echo date('Y');
-echo "\n";
+$links = [
+    ['url' => 'https://google.com', 'name' => 'Google'],
+    ['url' => 'https://yandex.com', 'name' => 'Yandex'],
+    ['url' => 'https://bingo.com', 'name' => 'Bingo']
+];
 
-echo 'Hello, world!';
+?>
+
+<!-- BEGIN (write your solution here) -->
+<?php foreach ($links as $link): ?>
+<a href="<?= $link['url'] ?>"><?= $link['name'] ?></a>
+<?php endforeach; ?>
+<!-- END -->
